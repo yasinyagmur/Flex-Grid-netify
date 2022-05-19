@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: whitesmoke; */
+    border-collapse: collapse;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.header{
+    display: flex;
+    height: 10vh;
+    width:100%;
+}
+.col-1{
+    background-color: cadetblue;
+    width: 20%;
+    padding: 2rem;
+}
+.col-2{
+    background-color:cornflowerblue;
+    width: 80%;
+    padding: 2rem;
+}
+.col-3{
+    background-color:tomato;
+    width: 100%;
+    height: 25vh;
+    padding: 2rem;
+    align-items: center;
+}
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellowgreen;
+    width: 100%;
+    height: 35vh;
+    justify-content:space-around;
+    border: 1px solid rgb(74, 99, 24);
+    border-collapse: collapse;    
+    
+}
+.col-4{
+    width: calc(100%*4/12);
+    border: 1px solid rgb(74, 99, 24);
+    border-collapse: collapse;    
+    padding: 2rem;
+
+}
+.col-5 {
+    width: calc(100%*4/12);
+    border-collapse: collapse;
+    border: 1px solid rgb(74, 99, 24);
+    padding: 2rem;
+    
+}
+
+.col-6 {
+    width: calc(100%*4/12);
+    border-collapse: collapse;
+    border: 1px solid rgb(74, 99, 24);
+    padding: 2rem;
+
+}
+.col-10 {
+    background-color:violet;
+    width: 100%;
+    height: 10vh;
+    padding: 2rem;
+    align-items: center;
+}
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:burlywood;
+    width: 100%;
+    height: 20vh;
+    border: 1px solid rgb(74, 99, 24);
+    border-collapse: collapse; 
+}
+.col-7 {
+    width: calc(100%*3/12);
+    border-collapse: collapse;
+    border: 1px solid rgb(74, 99, 24);
+    padding: 2rem;
+}
+.col-8 {
+    width: calc(100%*6/12);
+    border-collapse: collapse;
+    border: 1px solid rgb(74, 99, 24);
+    padding: 2rem;
+
+}
+.col-9 {
+    width: calc(100%*3/12);
+    border-collapse: collapse;
+    border: 1px solid rgb(74, 99, 24);
+    padding: 2rem;
+
+}
